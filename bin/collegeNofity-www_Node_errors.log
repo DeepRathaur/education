@@ -1,0 +1,1014 @@
+Uncaught Error { filename:
+   '/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/schoolDiscount.controller.js',
+  line: 51,
+  row: 31,
+  message: 'Schools is not defined',
+  type: 'ReferenceError',
+  stack:
+   'ReferenceError: Schools is not defined\n    at getAll (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/schoolDiscount.controller.js:51:31)\n    at checkUserRole (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/services/routes.helper.js:10:9)\n    at Layer.handle [as handle_request] (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/express/lib/router/route.js:137:13)\n    at complete (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/middleware/authenticate.js:263:13)\n    at /home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/middleware/authenticate.js:270:15\n    at pass (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/authenticator.js:431:14)\n    at Authenticator.transformAuthInfo (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/authenticator.js:453:5)\n    at /home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/middleware/authenticate.js:267:22\n    at IncomingMessage.req.login.req.logIn (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/http/request.js:55:13)\n    at JwtStrategy.strategy.success (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/middleware/authenticate.js:248:13)\n    at verified (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport-jwt/lib/strategy.js:115:41)\n    at JwtStrategy._verify (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/middleware/passport.js:17:20)',
+  arguments: undefined }
+Uncaught Error { filename:
+   '/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/schoolDiscount.controller.js',
+  line: 51,
+  row: 31,
+  message: 'Schools is not defined',
+  type: 'ReferenceError',
+  stack:
+   'ReferenceError: Schools is not defined\n    at getAll (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/schoolDiscount.controller.js:51:31)\n    at checkUserRole (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/services/routes.helper.js:10:9)\n    at Layer.handle [as handle_request] (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/express/lib/router/route.js:137:13)\n    at complete (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/middleware/authenticate.js:263:13)\n    at /home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/middleware/authenticate.js:270:15\n    at pass (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/authenticator.js:431:14)\n    at Authenticator.transformAuthInfo (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/authenticator.js:453:5)\n    at /home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/middleware/authenticate.js:267:22\n    at IncomingMessage.req.login.req.logIn (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/http/request.js:55:13)\n    at JwtStrategy.strategy.success (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/middleware/authenticate.js:248:13)\n    at verified (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport-jwt/lib/strategy.js:115:41)\n    at JwtStrategy._verify (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/middleware/passport.js:17:20)',
+  arguments: undefined }
+Uncaught Error { filename:
+   '/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/schoolDiscount.controller.js',
+  line: 51,
+  row: 31,
+  message: 'Schools is not defined',
+  type: 'ReferenceError',
+  stack:
+   'ReferenceError: Schools is not defined\n    at getAll (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/schoolDiscount.controller.js:51:31)\n    at checkUserRole (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/services/routes.helper.js:10:9)\n    at Layer.handle [as handle_request] (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/express/lib/router/route.js:137:13)\n    at complete (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/middleware/authenticate.js:263:13)\n    at /home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/middleware/authenticate.js:270:15\n    at pass (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/authenticator.js:431:14)\n    at Authenticator.transformAuthInfo (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/authenticator.js:453:5)\n    at /home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/middleware/authenticate.js:267:22\n    at IncomingMessage.req.login.req.logIn (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/http/request.js:55:13)\n    at JwtStrategy.strategy.success (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/middleware/authenticate.js:248:13)\n    at verified (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport-jwt/lib/strategy.js:115:41)\n    at JwtStrategy._verify (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/middleware/passport.js:17:20)',
+  arguments: undefined }
+Uncaught Error { filename:
+   '/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/alert.controller.js',
+  line: 186,
+  row: 43,
+  message: 'Cannot read property \'id\' of undefined',
+  type: 'TypeError',
+  stack:
+   'TypeError: Cannot read property \'id\' of undefined\n    at getAlert (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/alert.controller.js:186:43)',
+  arguments: undefined }
+Mon, 03 Dec 2018 06:40:29 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Tue, 04 Dec 2018 05:47:01 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Tue, 04 Dec 2018 08:10:43 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Tue, 04 Dec 2018 08:50:31 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Wed, 05 Dec 2018 05:05:58 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Wed, 05 Dec 2018 05:11:12 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Wed, 05 Dec 2018 05:14:46 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Wed, 05 Dec 2018 22:50:05 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Thu, 06 Dec 2018 04:57:49 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Uncaught Error { filename:
+   '/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js',
+  line: 161,
+  row: 50,
+  message: 'Cannot read property \'replace\' of null',
+  type: 'TypeError',
+  stack:
+   'TypeError: Cannot read property \'replace\' of null\n    at profile (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js:161:50)',
+  arguments: undefined }
+Uncaught Error { filename:
+   '/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js',
+  line: 161,
+  row: 50,
+  message: 'Cannot read property \'replace\' of null',
+  type: 'TypeError',
+  stack:
+   'TypeError: Cannot read property \'replace\' of null\n    at profile (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js:161:50)',
+  arguments: undefined }
+Uncaught Error { filename:
+   '/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js',
+  line: 161,
+  row: 50,
+  message: 'Cannot read property \'replace\' of null',
+  type: 'TypeError',
+  stack:
+   'TypeError: Cannot read property \'replace\' of null\n    at profile (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js:161:50)',
+  arguments: undefined }
+Uncaught Error { filename:
+   '/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js',
+  line: 161,
+  row: 50,
+  message: 'Cannot read property \'replace\' of null',
+  type: 'TypeError',
+  stack:
+   'TypeError: Cannot read property \'replace\' of null\n    at profile (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js:161:50)',
+  arguments: undefined }
+Uncaught Error { filename:
+   '/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js',
+  line: 161,
+  row: 50,
+  message: 'Cannot read property \'replace\' of null',
+  type: 'TypeError',
+  stack:
+   'TypeError: Cannot read property \'replace\' of null\n    at profile (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js:161:50)',
+  arguments: undefined }
+Uncaught Error { filename:
+   '/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js',
+  line: 161,
+  row: 50,
+  message: 'Cannot read property \'replace\' of null',
+  type: 'TypeError',
+  stack:
+   'TypeError: Cannot read property \'replace\' of null\n    at profile (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js:161:50)',
+  arguments: undefined }
+Uncaught Error { filename:
+   '/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js',
+  line: 161,
+  row: 50,
+  message: 'Cannot read property \'replace\' of null',
+  type: 'TypeError',
+  stack:
+   'TypeError: Cannot read property \'replace\' of null\n    at profile (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js:161:50)',
+  arguments: undefined }
+Uncaught Error { filename:
+   '/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js',
+  line: 161,
+  row: 50,
+  message: 'Cannot read property \'replace\' of null',
+  type: 'TypeError',
+  stack:
+   'TypeError: Cannot read property \'replace\' of null\n    at profile (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js:161:50)',
+  arguments: undefined }
+Fri, 07 Dec 2018 07:22:27 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Tue, 11 Dec 2018 22:50:27 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Sat, 15 Dec 2018 10:38:59 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Sat, 15 Dec 2018 10:47:23 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Wed, 19 Dec 2018 05:23:31 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged and will be removed in an upcoming major release. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.
+Arguments: 
+[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 12-27-2018 11:07, _f: undefined, _strict: undefined, _locale: [object Object]
+Error
+    at Function.createFromInputFallback (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:320:98)
+    at configFromString (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2368:15)
+    at configFromInput (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2594:13)
+    at prepareConfig (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2577:13)
+    at createFromConfig (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2544:44)
+    at createLocalOrUTC (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2631:16)
+    at createLocal (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2635:16)
+    at hooks (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:12:29)
+    at model._sanitize (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/data-types.js:423:12)
+    at model.set (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:3401:63)
+    at model.set (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:3341:18)
+    at model._initValues (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:3157:10)
+    at new Model (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:3106:10)
+    at new University (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/sequelize.js:340:19)
+    at Function.build (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:1976:12)
+    at Function.create (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:2027:17)
+    at create (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/university.controller.js:12:54)
+    at checkUserRole (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/services/routes.helper.js:10:9)
+    at Layer.handle [as handle_request] (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/express/lib/router/route.js:137:13)
+    at complete (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/middleware/authenticate.js:263:13)
+    at /home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/middleware/authenticate.js:270:15
+Thu, 20 Dec 2018 05:59:26 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged and will be removed in an upcoming major release. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.
+Arguments: 
+[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 12-20-2018 5:31, _f: undefined, _strict: undefined, _locale: [object Object]
+Error
+    at Function.createFromInputFallback (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:320:98)
+    at configFromString (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2368:15)
+    at configFromInput (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2594:13)
+    at prepareConfig (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2577:13)
+    at createFromConfig (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2544:44)
+    at createLocalOrUTC (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2631:16)
+    at createLocal (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2635:16)
+    at hooks (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:12:29)
+    at model._sanitize (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/data-types.js:423:12)
+    at model.set (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:3401:63)
+    at model.set (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:3341:18)
+    at model._initValues (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:3157:10)
+    at new Model (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:3106:10)
+    at new University (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/sequelize.js:340:19)
+    at Function.build (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:1976:12)
+    at Function.create (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:2027:17)
+    at create (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/university.controller.js:12:54)
+    at checkUserRole (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/services/routes.helper.js:10:9)
+    at Layer.handle [as handle_request] (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/express/lib/router/route.js:137:13)
+    at complete (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/middleware/authenticate.js:263:13)
+    at /home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/middleware/authenticate.js:270:15
+Fri, 21 Dec 2018 06:13:00 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged and will be removed in an upcoming major release. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.
+Arguments: 
+[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 12-21-2018 5:45, _f: undefined, _strict: undefined, _locale: [object Object]
+Error
+    at Function.createFromInputFallback (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:320:98)
+    at configFromString (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2368:15)
+    at configFromInput (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2594:13)
+    at prepareConfig (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2577:13)
+    at createFromConfig (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2544:44)
+    at createLocalOrUTC (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2631:16)
+    at createLocal (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2635:16)
+    at hooks (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:12:29)
+    at model._sanitize (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/data-types.js:423:12)
+    at model.set (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:3401:63)
+    at model.set (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:3341:18)
+    at model._initValues (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:3157:10)
+    at new Model (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:3106:10)
+    at new University (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/sequelize.js:340:19)
+    at Function.build (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:1976:12)
+    at Function.create (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:2027:17)
+    at create (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/university.controller.js:12:54)
+    at checkUserRole (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/services/routes.helper.js:10:9)
+    at Layer.handle [as handle_request] (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/express/lib/router/route.js:137:13)
+    at complete (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/middleware/authenticate.js:263:13)
+    at /home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/middleware/authenticate.js:270:15
+Wed, 26 Dec 2018 22:48:44 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged and will be removed in an upcoming major release. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.
+Arguments: 
+[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 1-3-2019 5:48, _f: undefined, _strict: undefined, _locale: [object Object]
+Error
+    at Function.createFromInputFallback (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:320:98)
+    at configFromString (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2368:15)
+    at configFromInput (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2594:13)
+    at prepareConfig (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2577:13)
+    at createFromConfig (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2544:44)
+    at createLocalOrUTC (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2631:16)
+    at createLocal (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2635:16)
+    at hooks (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:12:29)
+    at model._sanitize (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/data-types.js:423:12)
+    at model.set (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:3401:63)
+    at model.set (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:3341:18)
+    at model._initValues (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:3157:10)
+    at new Model (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:3106:10)
+    at new University (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/sequelize.js:340:19)
+    at Function.build (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:1976:12)
+    at Function.create (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:2027:17)
+    at create (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/university.controller.js:12:54)
+    at checkUserRole (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/services/routes.helper.js:10:9)
+    at Layer.handle [as handle_request] (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/express/lib/router/route.js:137:13)
+    at complete (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/middleware/authenticate.js:263:13)
+    at /home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/middleware/authenticate.js:270:15
+Sat, 05 Jan 2019 06:01:47 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'twilio'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/services/sms.service.js:1:80)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js:15:20)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/routes/v1.js:7:33)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+Sat, 05 Jan 2019 06:01:48 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'twilio'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/services/sms.service.js:1:80)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js:15:20)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/routes/v1.js:7:33)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+Sat, 05 Jan 2019 06:01:50 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'twilio'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/services/sms.service.js:1:80)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js:15:20)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/routes/v1.js:7:33)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+Sat, 05 Jan 2019 06:01:53 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'twilio'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/services/sms.service.js:1:80)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js:15:20)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/routes/v1.js:7:33)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+Sat, 05 Jan 2019 06:01:56 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'twilio'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/services/sms.service.js:1:80)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js:15:20)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/routes/v1.js:7:33)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+Sat, 05 Jan 2019 06:01:59 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'twilio'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/services/sms.service.js:1:80)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js:15:20)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/routes/v1.js:7:33)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+Sat, 05 Jan 2019 06:02:09 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'twilio'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/services/sms.service.js:1:80)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js:15:20)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/routes/v1.js:7:33)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+Sat, 05 Jan 2019 06:02:10 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'twilio'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/services/sms.service.js:1:80)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js:15:20)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/routes/v1.js:7:33)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+Sat, 05 Jan 2019 06:02:12 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'twilio'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/services/sms.service.js:1:80)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js:15:20)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/routes/v1.js:7:33)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+Sat, 05 Jan 2019 06:02:14 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'twilio'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/services/sms.service.js:1:80)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js:15:20)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/routes/v1.js:7:33)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+Sat, 05 Jan 2019 06:02:16 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'twilio'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/services/sms.service.js:1:80)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js:15:20)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/routes/v1.js:7:33)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+Sat, 05 Jan 2019 06:02:18 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'twilio'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/services/sms.service.js:1:80)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js:15:20)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/routes/v1.js:7:33)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+Sat, 05 Jan 2019 06:02:21 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'twilio'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/services/sms.service.js:1:80)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js:15:20)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/routes/v1.js:7:33)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+Sat, 05 Jan 2019 06:02:23 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'twilio'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/services/sms.service.js:1:80)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js:15:20)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/routes/v1.js:7:33)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+Sat, 05 Jan 2019 06:02:25 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'twilio'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/services/sms.service.js:1:80)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js:15:20)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/routes/v1.js:7:33)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+Sat, 05 Jan 2019 06:02:27 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'twilio'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/services/sms.service.js:1:80)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js:15:20)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/routes/v1.js:7:33)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+Sat, 05 Jan 2019 06:02:30 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'twilio'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/services/sms.service.js:1:80)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js:15:20)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/routes/v1.js:7:33)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+Sat, 05 Jan 2019 06:02:34 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'twilio'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/services/sms.service.js:1:80)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/user.controller.js:15:20)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/routes/v1.js:7:33)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+Sat, 05 Jan 2019 06:09:56 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged and will be removed in an upcoming major release. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.
+Arguments: 
+[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 2-12-2009 5:39, _f: undefined, _strict: undefined, _locale: [object Object]
+Error
+    at Function.createFromInputFallback (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:320:98)
+    at configFromString (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2368:15)
+    at configFromInput (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2594:13)
+    at prepareConfig (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2577:13)
+    at createFromConfig (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2544:44)
+    at createLocalOrUTC (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2631:16)
+    at createLocal (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2635:16)
+    at hooks (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:12:29)
+    at model._sanitize (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/data-types.js:423:12)
+    at model.set (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:3401:63)
+    at model.set (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:3341:18)
+    at model._initValues (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:3157:10)
+    at new Model (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:3106:10)
+    at new University (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/sequelize.js:340:19)
+    at Function.build (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:1976:12)
+    at Function.create (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:2027:17)
+    at create (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/university.controller.js:12:54)
+    at checkUserRole (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/services/routes.helper.js:10:9)
+    at Layer.handle [as handle_request] (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/express/lib/router/route.js:137:13)
+    at complete (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/middleware/authenticate.js:263:13)
+    at /home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/middleware/authenticate.js:270:15
+Wed, 09 Jan 2019 22:48:58 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged and will be removed in an upcoming major release. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.
+Arguments: 
+[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 6-7-2012 5:05, _f: undefined, _strict: undefined, _locale: [object Object]
+Error
+    at Function.createFromInputFallback (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:320:98)
+    at configFromString (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2368:15)
+    at configFromInput (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2594:13)
+    at prepareConfig (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2577:13)
+    at createFromConfig (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2544:44)
+    at createLocalOrUTC (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2631:16)
+    at createLocal (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2635:16)
+    at hooks (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:12:29)
+    at model._sanitize (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/data-types.js:423:12)
+    at model.set (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:3401:63)
+    at model.set (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:3341:18)
+    at model._initValues (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:3157:10)
+    at new Model (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:3106:10)
+    at new University (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/sequelize.js:340:19)
+    at Function.build (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:1976:12)
+    at Function.create (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:2027:17)
+    at create (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/university.controller.js:12:54)
+    at checkUserRole (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/services/routes.helper.js:10:9)
+    at Layer.handle [as handle_request] (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/express/lib/router/route.js:137:13)
+    at complete (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/middleware/authenticate.js:263:13)
+    at /home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/middleware/authenticate.js:270:15
+Mon, 14 Jan 2019 11:40:25 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged and will be removed in an upcoming major release. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.
+Arguments: 
+[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 7-10-2012 5:19, _f: undefined, _strict: undefined, _locale: [object Object]
+Error
+    at Function.createFromInputFallback (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:320:98)
+    at configFromString (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2368:15)
+    at configFromInput (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2594:13)
+    at prepareConfig (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2577:13)
+    at createFromConfig (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2544:44)
+    at createLocalOrUTC (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2631:16)
+    at createLocal (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2635:16)
+    at hooks (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:12:29)
+    at model._sanitize (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/data-types.js:423:12)
+    at model.set (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:3401:63)
+    at model.set (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:3341:18)
+    at model._initValues (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:3157:10)
+    at new Model (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:3106:10)
+    at new University (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/sequelize.js:340:19)
+    at Function.build (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:1976:12)
+    at Function.create (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:2027:17)
+    at create (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/university.controller.js:12:54)
+    at checkUserRole (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/services/routes.helper.js:10:9)
+    at Layer.handle [as handle_request] (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/express/lib/router/route.js:137:13)
+    at complete (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/middleware/authenticate.js:263:13)
+    at /home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/middleware/authenticate.js:270:15
+Fri, 25 Jan 2019 04:53:21 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Uncaught Error { filename:
+   '/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/course.controller.js',
+  line: 16,
+  row: 86,
+  message: 'Cannot read property \'toWeb\' of undefined',
+  type: 'TypeError',
+  stack:
+   'TypeError: Cannot read property \'toWeb\' of undefined\n    at create (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/course.controller.js:16:86)',
+  arguments: undefined }
+Uncaught Error { filename:
+   '/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/course.controller.js',
+  line: 16,
+  row: 86,
+  message: 'Cannot read property \'toWeb\' of undefined',
+  type: 'TypeError',
+  stack:
+   'TypeError: Cannot read property \'toWeb\' of undefined\n    at create (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/course.controller.js:16:86)',
+  arguments: undefined }
+Mon, 28 Jan 2019 18:12:22 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Mon, 28 Jan 2019 18:16:15 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Mon, 28 Jan 2019 18:29:10 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Mon, 28 Jan 2019 18:38:04 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Mon, 28 Jan 2019 18:44:06 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Mon, 28 Jan 2019 18:54:05 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Tue, 29 Jan 2019 22:48:45 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Uncaught Error { filename:
+   '/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/course.controller.js',
+  line: 16,
+  row: 86,
+  message: 'Cannot read property \'toWeb\' of undefined',
+  type: 'TypeError',
+  stack:
+   'TypeError: Cannot read property \'toWeb\' of undefined\n    at create (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/course.controller.js:16:86)',
+  arguments: undefined }
+Uncaught Error { filename:
+   '/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/course.controller.js',
+  line: 16,
+  row: 86,
+  message: 'Cannot read property \'toWeb\' of undefined',
+  type: 'TypeError',
+  stack:
+   'TypeError: Cannot read property \'toWeb\' of undefined\n    at create (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/course.controller.js:16:86)',
+  arguments: undefined }
+Uncaught Error { filename:
+   '/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/course.controller.js',
+  line: 16,
+  row: 86,
+  message: 'Cannot read property \'toWeb\' of undefined',
+  type: 'TypeError',
+  stack:
+   'TypeError: Cannot read property \'toWeb\' of undefined\n    at create (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/course.controller.js:16:86)',
+  arguments: undefined }
+Uncaught Error { filename:
+   '/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/coursecategory.controller.js',
+  line: 17,
+  row: 111,
+  message: 'Cannot read property \'toWeb\' of undefined',
+  type: 'TypeError',
+  stack:
+   'TypeError: Cannot read property \'toWeb\' of undefined\n    at create (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/coursecategory.controller.js:17:111)',
+  arguments: undefined }
+Uncaught Error { filename:
+   '/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/course.controller.js',
+  line: 16,
+  row: 86,
+  message: 'Cannot read property \'toWeb\' of undefined',
+  type: 'TypeError',
+  stack:
+   'TypeError: Cannot read property \'toWeb\' of undefined\n    at create (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/course.controller.js:16:86)',
+  arguments: undefined }
+Uncaught Error { filename:
+   '/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/course.controller.js',
+  line: 16,
+  row: 86,
+  message: 'Cannot read property \'toWeb\' of undefined',
+  type: 'TypeError',
+  stack:
+   'TypeError: Cannot read property \'toWeb\' of undefined\n    at create (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/course.controller.js:16:86)',
+  arguments: undefined }
+Uncaught Error { filename:
+   '/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/course.controller.js',
+  line: 16,
+  row: 86,
+  message: 'Cannot read property \'toWeb\' of undefined',
+  type: 'TypeError',
+  stack:
+   'TypeError: Cannot read property \'toWeb\' of undefined\n    at create (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/course.controller.js:16:86)',
+  arguments: undefined }
+Uncaught Error { filename:
+   '/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/course.controller.js',
+  line: 16,
+  row: 86,
+  message: 'Cannot read property \'toWeb\' of undefined',
+  type: 'TypeError',
+  stack:
+   'TypeError: Cannot read property \'toWeb\' of undefined\n    at create (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/course.controller.js:16:86)',
+  arguments: undefined }
+Uncaught Error { filename:
+   '/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/course.controller.js',
+  line: 16,
+  row: 86,
+  message: 'Cannot read property \'toWeb\' of undefined',
+  type: 'TypeError',
+  stack:
+   'TypeError: Cannot read property \'toWeb\' of undefined\n    at create (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/course.controller.js:16:86)',
+  arguments: undefined }
+Uncaught Error { filename:
+   '/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/course.controller.js',
+  line: 16,
+  row: 86,
+  message: 'Cannot read property \'toWeb\' of undefined',
+  type: 'TypeError',
+  stack:
+   'TypeError: Cannot read property \'toWeb\' of undefined\n    at create (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/course.controller.js:16:86)',
+  arguments: undefined }
+Uncaught Error { filename:
+   '/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/course.controller.js',
+  line: 16,
+  row: 86,
+  message: 'Cannot read property \'toWeb\' of undefined',
+  type: 'TypeError',
+  stack:
+   'TypeError: Cannot read property \'toWeb\' of undefined\n    at create (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/course.controller.js:16:86)',
+  arguments: undefined }
+Uncaught Error { filename:
+   '/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/course.controller.js',
+  line: 16,
+  row: 86,
+  message: 'Cannot read property \'toWeb\' of undefined',
+  type: 'TypeError',
+  stack:
+   'TypeError: Cannot read property \'toWeb\' of undefined\n    at create (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/course.controller.js:16:86)',
+  arguments: undefined }
+Uncaught Error { filename:
+   '/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/course.controller.js',
+  line: 16,
+  row: 86,
+  message: 'Cannot read property \'toWeb\' of undefined',
+  type: 'TypeError',
+  stack:
+   'TypeError: Cannot read property \'toWeb\' of undefined\n    at create (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/course.controller.js:16:86)',
+  arguments: undefined }
+Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged and will be removed in an upcoming major release. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.
+Arguments: 
+[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 8-3-1997 11:58, _f: undefined, _strict: undefined, _locale: [object Object]
+Error
+    at Function.createFromInputFallback (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:320:98)
+    at configFromString (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2368:15)
+    at configFromInput (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2594:13)
+    at prepareConfig (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2577:13)
+    at createFromConfig (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2544:44)
+    at createLocalOrUTC (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2631:16)
+    at createLocal (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:2635:16)
+    at hooks (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/moment/moment.js:12:29)
+    at model._sanitize (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/data-types.js:423:12)
+    at model.set (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:3401:63)
+    at model.set (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:3341:18)
+    at model._initValues (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:3157:10)
+    at new Model (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:3106:10)
+    at new University (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/sequelize.js:340:19)
+    at Function.build (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:1976:12)
+    at Function.create (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/sequelize/lib/model.js:2027:17)
+    at create (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/university.controller.js:12:54)
+    at checkUserRole (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/services/routes.helper.js:10:9)
+    at Layer.handle [as handle_request] (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/express/lib/router/route.js:137:13)
+    at complete (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/middleware/authenticate.js:263:13)
+    at /home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/node_modules/passport/lib/middleware/authenticate.js:270:15
+Uncaught Error { filename:
+   '/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/course.controller.js',
+  line: 16,
+  row: 86,
+  message: 'Cannot read property \'toWeb\' of undefined',
+  type: 'TypeError',
+  stack:
+   'TypeError: Cannot read property \'toWeb\' of undefined\n    at create (/home/ckmeoutcom/public_html/subdomains/collegenotify/admissionalert/controllers/course.controller.js:16:86)',
+  arguments: undefined }
+Fri, 01 Feb 2019 22:51:00 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Sat, 02 Feb 2019 04:56:45 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Sat, 02 Feb 2019 05:05:50 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Sat, 02 Feb 2019 05:11:27 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Sat, 02 Feb 2019 05:28:05 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Sat, 02 Feb 2019 05:30:05 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Sat, 02 Feb 2019 05:32:05 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Sat, 02 Feb 2019 05:34:04 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Sat, 02 Feb 2019 05:52:05 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Sat, 02 Feb 2019 06:10:05 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Sat, 02 Feb 2019 06:22:06 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Sat, 02 Feb 2019 06:24:05 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Thu, 07 Feb 2019 06:50:51 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Thu, 07 Feb 2019 06:54:32 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Thu, 28 Feb 2019 22:48:54 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Wed, 06 Mar 2019 22:48:46 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Mon, 18 Mar 2019 22:50:28 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Tue, 19 Mar 2019 04:30:13 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Tue, 19 Mar 2019 22:49:27 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Fri, 29 Mar 2019 06:35:34 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Wed, 03 Apr 2019 05:10:11 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
+Wed, 10 Apr 2019 22:50:02 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at ../node_modules/sequelize/lib/sequelize.js:242:13
