@@ -1,7 +1,12 @@
 const {
     Alert, Campus, University, UnversityCategory, UnvImportantDate, UnvHowToApply, UnvImportantLink,
-    UnvExaminationPattern, UnvEligibilityCriteria, Course, City, State
+    UnvExaminationPattern, UnvEligibilityCriteria, Course, City, State, Stream
 } = require('../models');
+const sequelize = require('sequelize');
+const Op = sequelize.Op;
+const queryString = require('query-string');
+
+
 const {to, ReE, ReS} = require('../services/util.service');
 
 const create = async function (req, res) {
@@ -299,6 +304,140 @@ const getAlertdetails = async (req, res) => {
 };
 module.exports.getAlertdetails = getAlertdetails;
 
+const searchAlert = async (req, res) => {
+    res.setHeader('Content-Type', 'application/json');
+    let urlstring, universityids, campusids, stateids, courseids, streamids, streamQuery, courseQuery, stateQuery,
+        err, universities, alerts;
+
+    urlstring = queryString.parse(req.params.querystring);
+
+    if (urlstring.university != 'null') {
+        if (Array.isArray(urlstring.university)) {
+            universityids = urlstring.university;
+        } else {
+            universityids = [urlstring.university];
+        }
+    } else {
+        ReE(res, 'University is mandatory.', 422);
+    }
+
+    if (urlstring.campus != 'null') {
+        if (Array.isArray(urlstring.campus)) {
+            campusids = urlstring.campus;
+        } else {
+            campusids = [urlstring.campus];
+        }
+    } else {
+        ReE(res, 'Campus is mandatory.', 422);
+    }
+
+    if (urlstring.state != 'null') {
+        if (Array.isArray(urlstring.state)) {
+            stateids = urlstring.state;
+            stateQuery = {
+                model: State, where: {
+                    id: {
+                        $in: stateids
+                    }
+                }
+            }
+        } else {
+            stateids = [urlstring.state];
+            stateQuery = {
+                model: State, where: {
+                    id: {
+                        $in: stateids
+                    }
+                }
+            }
+        }
+    } else {
+        stateQuery = {
+            model: State
+        }
+    }
+
+    if (urlstring.course != 'null') {
+        if (Array.isArray(urlstring.course)) {
+            courseids = urlstring.course;
+            courseQuery = {
+                model: Course, where: {
+                    id: {
+                        $in: courseids
+                    }
+                }
+            }
+        } else {
+            courseids = [urlstring.course];
+            courseQuery = {
+                model: Course, where: {
+                    id: {
+                        $in: courseids
+                    }
+                }
+            }
+        }
+    } else {
+        courseQuery = {
+            model: Course
+        }
+    }
+
+    if (urlstring.stream != 'null') {
+        if (Array.isArray(urlstring.stream)) {
+            streamids = urlstring.stream;
+            streamQuery = {
+                model: Stream, where: {
+                    id: {
+                        $in: streamids
+                    }
+                }
+            }
+        } else {
+            streamids = [urlstring.stream];
+            streamQuery = {
+                model: Stream, where: {
+                    id: {
+                        $in: streamids
+                    }
+                }
+            }
+        }
+    } else {
+        streamQuery = {
+            model: Stream
+        }
+    }
+
+    [err, alerts] = await to(Alert.findAll({
+        where: {
+            [Op.or]: [{
+                university_id: {
+                    $in: universityids
+                }
+            }, {
+                campus_id: {
+                    $in: campusids
+                }
+            }]
+        },
+        include: [courseQuery, stateQuery, streamQuery]
+    }));
+
+    if (err) ReE(res, err, 422);
+
+    let d_json = [];
+    for (let i in alerts) {
+        let details = alerts[i];
+        let info = details.toWeb();
+        d_json.push(info);
+    }
+    return ReS(res, {alerts: d_json});
+};
+
+module.exports.searchAlert = searchAlert;
+
+//plantae/:genus.:species
 function GetFormattedDate(date) {
     let monthNames = [
         "January", "February", "March",

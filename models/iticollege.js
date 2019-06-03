@@ -10,6 +10,10 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.STRING(200),
             allowNull: false
         },
+        website_url: {
+            type: DataTypes.STRING(200),
+            allowNull: true
+        },
         type: {
             type: DataTypes.STRING(200),
             allowNull: true // Private or Government

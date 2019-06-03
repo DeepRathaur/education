@@ -33,10 +33,16 @@ const FaqS                      = require('../controllers/faqs.controller');
 const UnvCategory               = require('../controllers/unvcategory.controller');
 const CourseCategoryController  = require('../controllers/coursecategory.controller');
 const SchoolController          = require('../controllers/school.controller');
-const SchoolDiscount            = require('../controllers/schoolDiscount.controller')
-const CourseFor                 = require('../controllers/coursefor.controller')
-const EntranceExam              = require('../controllers/entranceexam.controller')
-const City                      = require('../controllers/city.controller')
+const SchoolDiscount            = require('../controllers/schoolDiscount.controller');
+const CourseFor                 = require('../controllers/coursefor.controller');
+const EntranceExam              = require('../controllers/entranceexam.controller');
+const City                      = require('../controllers/city.controller');
+const ItiTrade                  = require('../controllers/ititrade.controller');
+const ItiCollege                = require('../controllers/iticollege.controller');
+const ItiCollegeTrade           = require('../controllers/iticollegetrade.controller');
+const WNCategory                = require('../controllers/whatsnextcatgory.controller');
+const WhatsNext                 = require('../controllers/whatsnext.controller');
+const CareerGlance              = require('../controllers/careerglance.controller');
 
 
 
@@ -148,6 +154,7 @@ router.post(    '/alerts',                  passport.authenticate('jwt', {sessio
 router.get(    '/alerts',                 passport.authenticate('jwt', {session:false}), allowOnly(PARAMS.accessLevels.user,  AlertController.getAll));                 // R
 //router.get(    '/alerts',                   passport.authenticate('jwt', {session:false}), allowOnly(PARAMS.accessLevels.user,  AlertController.getAlert));                 // R
 router.get(    '/alerts/:alertid',          passport.authenticate('jwt', {session:false}), allowOnly(PARAMS.accessLevels.user,  AlertController.getAlertdetails)); // R
+router.get(    '/searchalerts/:querystring',          passport.authenticate('jwt', {session:false}), allowOnly(PARAMS.accessLevels.user,  AlertController.searchAlert)); // R
 
 
 /**
@@ -338,6 +345,59 @@ router.delete( '/entranceexam/:id',    passport.authenticate('jwt', {session:fal
  * @Bulk email  Routing
  */
 router.post(   '/entranceexam',        passport.authenticate('jwt', {session:false}), allowOnly(PARAMS.accessLevels.admin,   EntranceExam.create));                                // C
+
+/**
+ * @ITI-Trade  Routing
+ */
+router.post(   '/ititrade',        passport.authenticate('jwt', {session:false}), allowOnly(PARAMS.accessLevels.admin,   ItiTrade.create));                                // C
+router.post(   '/importtrade',     passport.authenticate('jwt', {session:false}), allowOnly(PARAMS.accessLevels.admin,   ItiTrade.importtrade));                                // C
+router.get(    '/ititrade',        passport.authenticate('jwt', {session:false}), allowOnly(PARAMS.accessLevels.user,    ItiTrade.getAll));                                                                                                                       // R
+router.put(    '/ititrade/:id',    passport.authenticate('jwt', {session:false}), allowOnly(PARAMS.accessLevels.admin,   ItiTrade.update));
+router.delete( '/ititrade/:id',    passport.authenticate('jwt', {session:false}), allowOnly(PARAMS.accessLevels.admin,   ItiTrade.remove));
+
+
+/**
+ * @ITI-College  Routing
+ */
+router.post(   '/iticolleges',        passport.authenticate('jwt', {session:false}), allowOnly(PARAMS.accessLevels.admin,   ItiCollege.create));                                // C
+router.post(   '/importcollege',      passport.authenticate('jwt', {session:false}), allowOnly(PARAMS.accessLevels.admin,   ItiCollege.importcollege));                                // C
+router.get(    '/iticolleges',        passport.authenticate('jwt', {session:false}), allowOnly(PARAMS.accessLevels.user,    ItiCollege.getAll));                                                                                                                       // R
+router.put(    '/iticolleges/:id',    passport.authenticate('jwt', {session:false}), allowOnly(PARAMS.accessLevels.admin,   ItiCollege.update));
+router.delete( '/iticolleges/:id',    passport.authenticate('jwt', {session:false}), allowOnly(PARAMS.accessLevels.admin,   ItiCollege.remove));
+
+/**
+ * @ITI-College-Trade  Routing
+ */
+router.post(   '/iticollegestrade',        passport.authenticate('jwt', {session:false}), allowOnly(PARAMS.accessLevels.admin,   ItiCollegeTrade.create));                                // C
+router.get(    '/iticollegestrade',        passport.authenticate('jwt', {session:false}), allowOnly(PARAMS.accessLevels.user,    ItiCollegeTrade.getAll));                                                                                                                       // R
+router.put(    '/iticollegestrade/:id',    passport.authenticate('jwt', {session:false}), allowOnly(PARAMS.accessLevels.admin,   ItiCollegeTrade.update));
+router.delete( '/iticollegestrade/:id',    passport.authenticate('jwt', {session:false}), allowOnly(PARAMS.accessLevels.admin,   ItiCollegeTrade.remove));
+
+
+/**
+ * @Whats-Next-Category  Routing
+ */
+router.post(   '/wncategory',        passport.authenticate('jwt', {session:false}), allowOnly(PARAMS.accessLevels.admin,   WNCategory.create));                                // C
+router.get(    '/wncategory',        passport.authenticate('jwt', {session:false}), allowOnly(PARAMS.accessLevels.user,    WNCategory.getAll));                                                                                                                       // R
+router.put(    '/wncategory/:id',    passport.authenticate('jwt', {session:false}), allowOnly(PARAMS.accessLevels.admin,   WNCategory.update));
+router.delete( '/wncategory/:id',    passport.authenticate('jwt', {session:false}), allowOnly(PARAMS.accessLevels.admin,   WNCategory.remove));
+
+
+/**
+ * @Whats-Next-Category  Routing
+ */
+router.post(   '/whatsnext',        passport.authenticate('jwt', {session:false}), allowOnly(PARAMS.accessLevels.admin,   WhatsNext.create));                                // C
+router.get(    '/whatsnext',        passport.authenticate('jwt', {session:false}), allowOnly(PARAMS.accessLevels.user,    WhatsNext.getAll));                                                                                                                       // R
+router.get(    '/whatsnext/:id',    passport.authenticate('jwt', {session:false}), allowOnly(PARAMS.accessLevels.user,    WhatsNext.getOne));                                                                                                                       // R
+router.delete( '/whatsnext/:id',    passport.authenticate('jwt', {session:false}), allowOnly(PARAMS.accessLevels.admin,   WhatsNext.remove));
+
+
+/**
+ * @Career-Glance  Routing
+ */
+router.post(   '/careerglance',        passport.authenticate('jwt', {session:false}), allowOnly(PARAMS.accessLevels.admin,   CareerGlance.create));                                // C
+router.get(    '/careerglance',        passport.authenticate('jwt', {session:false}), allowOnly(PARAMS.accessLevels.user,    CareerGlance.getAll));                                            // R // R
+router.delete( '/careerglance/:id',    passport.authenticate('jwt', {session:false}), allowOnly(PARAMS.accessLevels.admin,   CareerGlance.remove));
 
 
 module.exports = router;

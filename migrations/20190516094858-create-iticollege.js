@@ -17,6 +17,10 @@ module.exports = {
                 type: Sequelize.STRING(200),
                 allowNull:false
             },
+            website_url: {
+                type: Sequelize.STRING(200),
+                allowNull: true
+            },
             type: {
                 type: Sequelize.STRING(200),
                 allowNull:true // Private or Government

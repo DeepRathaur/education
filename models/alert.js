@@ -41,6 +41,6 @@ module.exports = (sequelize, DataTypes) => {
     Alert.prototype.toWeb     = function (pw){
         let json    =   this.toJSON();
         return json;
-    }
+    };
     return Alert;
 };

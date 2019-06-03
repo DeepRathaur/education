@@ -15,7 +15,7 @@ const create    =   async function (req, res) {
 
         return ReS(res, {message: 'Successfully created new state.', state:states.toWeb()}, 201);
     }
-}
+};
 
 module.exports.create   =   create;
 
