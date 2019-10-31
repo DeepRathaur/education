@@ -29,7 +29,7 @@
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
     "query-string": "^6.5.0",
-    "sequelize": "^4.38.1",
+    "sequelize": "^5.15.1",
     "twilio": "^3.26.1",
     "validator": "^10.7.1",
     "voucher-code-generator": "^1.1.1"
