@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "accesscontrol": "^2.2.1",
-    "async": "^2.6.1",
+    "async": "^3.2.2",
     "await-to-js": "^2.0.1",
     "bcrypt": "^3.0.0",
     "bcrypt-promise": "^2.0.0",
